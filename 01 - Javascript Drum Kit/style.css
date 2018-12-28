@@ -1,0 +1,36 @@
+html {
+    background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+  
+.center {
+    display: flex;
+    /* flex: 1; */
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    background: rgba(2, 2, 2, 0.5);
+    border: 1px solid #222; 
+    border-radius: .5rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 0px 5px;
+    padding: 4px 0;
+    text-align: center;
+    transition: all .07s ease;
+    width: 10rem;
+}
+.key:hover {
+    cursor: pointer;
+}
+.keyHover {
+    border: 2px solid yellow;
+    cursor: pointer;
+    transform: scale(1.1);
+}
