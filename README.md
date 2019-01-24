@@ -1,6 +1,10 @@
 # javascript30
 
-Javascript30 @ wesbos.com practices. Note: First watched 10 seconds of the video to watch the practice done then try to do the better I can, finally watch the complete video. Visit https://javascript30.com/
+Javascript30 @ wesbos.com practices. 
+
+Note: First watched 10 seconds of the video to watch the practice done then try to do the better I can, finally watch the complete video. 
+
+Visit https://javascript30.com/
 
 ## License
 
