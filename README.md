@@ -2,7 +2,7 @@
 
 Javascript30 @ wesbos.com practices. 
 
-Note: First watched 10 seconds of the video to watch the practice done then try to do the better I can, finally watch the complete video. 
+Note: I first watch a few seconds of the video to know how the practice should look and work like, then I try to do the better I can and finally watch the complete video in order to compare it with my code. 
 
 Visit https://javascript30.com/
 
