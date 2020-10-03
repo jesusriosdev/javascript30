@@ -1,0 +1,35 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "exercises from the javascript30 online course by @wesbos",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusriosdev/javascript30.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "html",
+    "course",
+    "online",
+    "learning",
+    "developer",
+    "web",
+    "development"
+  ],
+  "author": "Jesus Rios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusriosdev/javascript30/issues"
+  },
+  "homepage": "https://github.com/jesusriosdev/javascript30#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
