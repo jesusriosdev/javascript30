@@ -36,7 +36,7 @@ var timer = setInterval(function() {
         document.getElementById('hand-seconds').style.transform = 'rotate(' + degreesSeconds + 'deg)'; 
         
         if(countSeconds == 60) {
-            //clearInterval(timer);
+            
             countSeconds = 0;
             degreesSeconds = 0;
     
@@ -45,7 +45,7 @@ var timer = setInterval(function() {
             document.getElementById('hand-minutes').style.transform = 'rotate(' + degreesMinutes + 'deg)'; 
     
             if(countMinutes == 60) {
-                //clearInterval(timer);
+                
                 countMinutes = 0;
                 degreesMinutes = 0;
         
