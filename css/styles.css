@@ -1,0 +1,47 @@
+:root {
+    --body-bg-color: #222;
+    --body-font-color: #fff;
+
+    --footer-bg-color: #000;
+
+    --main-color: #0068c6;
+  }
+
+body, html {
+    background-color: var(--body-bg-color);
+    color: var(--body-font-color);
+    width: 100%;
+    margin: 0;
+  }
+
+header {
+    background-color: var(--footer-bg-color);
+    padding: 10px 25px;
+}
+
+header a:hover {
+    color: var(--body-font-color);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    bottom: 0;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+a {
+    color: var(--body-font-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--main-color)
+}

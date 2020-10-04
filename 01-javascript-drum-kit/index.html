@@ -1,22 +1,40 @@
-<html>
-    <header>
-        <title>Drums!</title>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link rel="icon" type="image/x-icon" href="logo_dark_black_bg_16x16_icon.ico">
         <link rel="stylesheet" type="text/css" href="style.css" ></link>
-        <script type="text/javascript" src="script.js"></script>
-    </header>
+
+        <title>Javascript Drums Kit</title>
+    </head>
     <body>
         <div class="main">
             <div class="center">
-                <div class="key" id="KeyA" onclick="playSound('KeyA');"><span>A</span></div>
-                <div class="key" id="KeyS" onclick="playSound('KeyS');"><span>S</span></div>
-                <div class="key" id="KeyD" onclick="playSound('KeyD');"><span>D</span></div>
-                <div class="key" id="KeyF" onclick="playSound('KeyF');"><span>F</span></div>
-                <div class="key" id="KeyG" onclick="playSound('KeyG');"><span>G</span></div>
-                <div class="key" id="KeyH" onclick="playSound('KeyH');"><span>H</span></div>
-                <div class="key" id="KeyJ" onclick="playSound('KeyJ');"><span>J</span></div>
-                <div class="key" id="KeyK" onclick="playSound('KeyK');"><span>K</span></div>
-                <div class="key" id="KeyL" onclick="playSound('KeyL');"><span>L</span></div>
+                <div class="key" data-key="65" onclick="playSound('65');"><span>A</span></div>
+                <div class="key" data-key="83" onclick="playSound('83');"><span>S</span></div>
+                <div class="key" data-key="68" onclick="playSound('68');"><span>D</span></div>
+                <div class="key" data-key="70" onclick="playSound('70');"><span>F</span></div>
+                <div class="key" data-key="71" onclick="playSound('71');"><span>G</span></div>
+                <div class="key" data-key="72" onclick="playSound('72');"><span>H</span></div>
+                <div class="key" data-key="74" onclick="playSound('74');"><span>J</span></div>
+                <div class="key" data-key="75" onclick="playSound('75');"><span>K</span></div>
+                <div class="key" data-key="76" onclick="playSound('76');"><span>L</span></div>
             </div>
         </div>
+
+        <audio data-key="65" src="sounds/clap.wav"></audio>
+        <audio data-key="83" src="sounds/hihat.wav"></audio>
+        <audio data-key="68" src="sounds/kick.wav"></audio>
+        <audio data-key="70" src="sounds/openhat.wav"></audio>
+        <audio data-key="71" src="sounds/boom.wav"></audio>
+        <audio data-key="72" src="sounds/ride.wav"></audio>
+        <audio data-key="74" src="sounds/snare.wav"></audio>
+        <audio data-key="75" src="sounds/tom.wav"></audio>
+        <audio data-key="76" src="sounds/tink.wav"></audio>
+        
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
