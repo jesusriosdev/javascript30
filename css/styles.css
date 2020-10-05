@@ -7,7 +7,7 @@
     --main-color: #0068c6;
   }
 
-body, html {
+html, body {
     background-color: var(--body-bg-color);
     color: var(--body-font-color);
     width: 100%;
@@ -19,9 +19,13 @@ header {
     padding: 10px 25px;
 }
 
-header a:hover {
+header nav > a:hover {
     color: var(--body-font-color);
     text-decoration: none;
+}
+
+header nav > a > h4 {
+    display: inline;
 }
 
 footer {
@@ -43,5 +47,15 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: var(--main-color)
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
