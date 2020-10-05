@@ -1,39 +1,32 @@
+/* GENERAL */
 :root {
-    --body-bg-color: #222;
+    --body-bg-color: #131417;
     --body-font-color: #fff;
-
     --footer-bg-color: #000;
 
     --main-color: #0068c6;
-  }
+    --secondary-color: #1e1f26;
+    --tertiary-color: #222;
+}
 
 html, body {
     background-color: var(--body-bg-color);
     color: var(--body-font-color);
     width: 100%;
     margin: 0;
-  }
-
-header {
-    background-color: var(--footer-bg-color);
-    padding: 10px 25px;
 }
 
-header nav > a:hover {
-    color: var(--body-font-color);
-    text-decoration: none;
+section {
+    margin: 20px auto;
 }
 
-header nav > a > h4 {
-    display: inline;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 
-footer {
-    background-color: var(--footer-bg-color);
-    bottom: 0;
-    padding: 20px 0;
-    position: absolute;
-    width: 100%;
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -50,12 +43,58 @@ a:hover {
     color: var(--main-color);
     text-decoration: none;
 }
+/* GENERAL */
 
-ul {
-    margin: 0;
-    padding: 0;
+/* HEADER STARTS */
+header {
+    background-color: var(--footer-bg-color);
+    padding: 10px 25px;
+}
+header nav > a:hover {
+    color: var(--body-font-color);
+    text-decoration: none;
+}
+header nav > a > h4 {
+    display: inline;
+}
+/* HEADER ENDS */
+
+/* MAIN SECTION STARTS */
+
+.exercise {
+    height: 200px;
+    margin-bottom: 20px;
+    width: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+.exercise > div {
+    align-items: center;
+    background-color: var(--secondary-color);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 1rem !important;
+    width: 100%;
 }
+
+.exercise > div > a {
+    
+    align-items: center;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    text-align: center;
+    width: inherit;
+}
+
+/* MAIN SECTION ENDS */
+
+/* FOOTER STARTS */
+footer {
+    background-color: var(--footer-bg-color);
+    bottom: 0;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+}
+/* FOOTER END */
